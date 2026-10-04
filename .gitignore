@@ -1,0 +1,25 @@
+# Raw UCI dataset (~127 MB) is larger than GitHub's 100 MB file limit.
+# Download it from the UCI link in README.md and place it in data/.
+data/household_power_consumption.txt
+data/*.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
